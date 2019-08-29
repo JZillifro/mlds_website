@@ -1,0 +1,196 @@
+.ResourcePanel {
+  width: 100%;
+}
+
+.ResourceLabelUpper {
+  padding-top: 2em;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.ResourceLabel {
+  padding-top: 1em;
+  font-size: 22px;
+}
+
+.ResourceURL {
+  font-size: 18px;
+}
+
+.Text {
+  color: #253a4b;
+}
+
+.Grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.EventPanel {
+  width: 100%;
+  display: flex;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-top: 2px solid;
+  border-color: #606070;
+  color: #253a4b;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.EventImage {
+  height: 7vw;
+  width: 7vw;
+  min-width: 130px;
+  min-height: 130px;
+  border: 2px solid;
+  border-radius: 5%;
+  border-color: #476E8F;
+}
+
+.EventImageSection {
+  min-width: 144px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.EventInfoSection {
+  width: 20%;
+  min-width: 144px;
+}
+
+.EventTextDescription {
+  font-size: 18px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0;
+}
+
+.EventInfo {
+  font-size: 18px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.EventTextSection {
+  width: 60%;
+  min-width: 185px;
+}
+
+.EventTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.OfficerPanel {
+  width: 27%;
+  min-width: 185px;
+  margin: 3%;
+}
+
+.OfficerName {
+  width: 100%;
+  font-size: 22px;
+}
+
+.OfficerTitle {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.OfficerImage {
+  border-radius: 50%;
+  height: 13.5vw;
+  width: 13.5vw;
+  min-width: 175px;
+  min-height: 175px;
+  border: 5px solid;
+  border-color: #476E8F;
+}
+
+.LogoImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 1%;
+}
+
+header {
+  font-size: 80px;
+  margin-bottom: 5vh;
+  border-bottom: 2px solid;
+  border-color: #606070;
+  color: #253a4b;
+}
+
+p {
+  font-size: 20px;
+  color: #253a4b;
+}
+
+.NavBar {
+  text-align: left;
+  background-color: #476E8F;
+  border-bottom: 10px solid;
+  border-color: #5b88ae;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Content {
+  width: 50vw;
+  min-width: 300px;
+  background-color: white;
+  margin: 2% auto;
+  border-radius: 5px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  padding: 3% 10%;
+}
+
+.Button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.NavButton {
+  width: 25%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #476E8F;
+  color: white;
+  height: 100%;
+  font-size: 24px;
+  min-width: 160px;
+}
+
+.NavButton:hover {
+  background-color: white;
+  color: #476E8F;
+}
+
+.NavButton:active {
+  background-color: #5b88ae;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.NavButtonActive {
+  background-color: white !important;
+  color: #476E8F !important;
+}
+
+/*# sourceMappingURL=Style.css.map */
