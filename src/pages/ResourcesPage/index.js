@@ -28,9 +28,8 @@ class ResourcesPage extends Component {
           this.state.resources.map((resource, i) => {
             return(
               <div className="ResourcePanel" key={i}>
-              {resource.url && <div className="ResourceLabel">{resource.label}:</div>}
               {!resource.url && <div className="ResourceLabelUpper">{resource.label}:</div>}
-              {resource.url && <a className="ResouceURL" href={resource.url}>{resource.url}</a>}
+              {resource.url && <a className="ResourceLink" href={resource.url}>{resource.label}</a>}
               </div>
             )
           })
