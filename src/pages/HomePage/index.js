@@ -15,7 +15,7 @@ class EventsPage extends Component {
         </p>
 
         <p>
-          Membership is free and open to all UT students – both undergraduate and graduate. If you are new to machine learning and data science, we’d love to have you join us! Come to meetings on Monday nights @ 7:00 in EER 3.646 and check out our resources page for tips on how to get started. You can also sign up for our weekly newsletter below.
+          Membership is free and open to all UT students – both undergraduate and graduate. If you are new to machine learning and data science, we’d love to have you join us! Come to meetings on Monday nights @ 6:00 in EER 3.646 and check out our resources page for tips on how to get started. You can also sign up for our weekly newsletter below.
         </p>
 
         <p>
