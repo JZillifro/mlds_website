@@ -28,7 +28,7 @@ class EventsPage extends Component {
         <div className="Grid">
           {
             this.state.events.map((event, i) => {
-              return(<EventPanel title={event.title} description={event.description} image={event.image} date={event.date} time={event.time} location={event.location} slides={event.slides} colab={event.colab} key={i}/>)
+              return(<EventPanel title={event.title} description={event.description} image={event.image} date={event.date} time={event.time} location={event.location} slides={event.slides} notebook={event.notebook} key={i}/>)
             })
           }
         </div>
