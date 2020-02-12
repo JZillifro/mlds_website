@@ -11,7 +11,7 @@ class EventsPage extends Component {
         </header>
 
         <p>
-          We strive to encourage students to pursue and share their interests in the field of data science and machine learning. We hold weekly meetings on Monday nights in the form of technical and career related data science workshops, technical talks by faculty members, and presentations by guests from industry. We also plan extra social events where members will have the opportunity to meet with researchers and recruiters in the field. Beyond lectures, we support participation in online ML competitions, and generally pursue projects that interest us.
+          We strive to encourage students to pursue and share their interests in the field of data science and machine learning. We hold weekly meetings on Tuesday nights in the form of technical and career related data science workshops, technical talks by faculty members, and presentations by guests from industry. We also plan extra social events where members will have the opportunity to meet with researchers and recruiters in the field. Beyond lectures, we support participation in online ML competitions, and generally pursue projects that interest us.
         </p>
 
         <p>
