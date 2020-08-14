@@ -51,7 +51,7 @@
   min-height: 130px;
   border: 2px solid;
   border-radius: 5%;
-  border-color: #476E8F;
+  border-color: #05568B;
 }
 
 .EventImageSection {
@@ -113,7 +113,7 @@
   min-width: 175px;
   min-height: 175px;
   border: 5px solid;
-  border-color: #476E8F;
+  border-color: #05568B;
 }
 
 .LogoImage {
@@ -139,7 +139,7 @@ p {
 
 .NavBar {
   text-align: left;
-  background-color: #476E8F;
+  background-color: #05568B;
   border-bottom: 10px solid;
   border-color: #5b88ae;
   color: white;
@@ -160,7 +160,7 @@ p {
 
 .Button {
   border: none;
-  color: white;
+  color: #5b88ae;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -173,7 +173,7 @@ p {
   width: 25%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #476E8F;
+  background-color: #05568B;
   color: white;
   height: 100%;
   font-size: 24px;
@@ -182,7 +182,7 @@ p {
 
 .NavButton:hover {
   background-color: white;
-  color: #476E8F;
+  color: #05568B;
 }
 
 .NavButton:active {
@@ -193,7 +193,7 @@ p {
 
 .NavButtonActive {
   background-color: white !important;
-  color: #476E8F !important;
+  color: #05568B !important;
 }
 
 /*# sourceMappingURL=Style.css.map */

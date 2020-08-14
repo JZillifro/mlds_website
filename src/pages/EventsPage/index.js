@@ -25,8 +25,22 @@ class EventsPage extends Component {
   render() {
     return (
       <div>
+
+        <p>
+        Events and Meetings will be updated here alongside their respective slides and notebooks. Come to our meetings via Zoom. 
+        </p>
+
+        <a href="https://calendar.google.com/calendar/b/2?cid=Z3QwM2RpM2h2MW5tcDNqbHQ4MWlnZjBxMzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
+        <button>
+          Click here to view and add the MLDS Events and Meetings Calendar!
+        </button>
+        </a>
+
+
         <div className="Grid">
           {
+
+            
             this.state.events.map((event, i) => {
               return(<EventPanel title={event.title} description={event.description} image={event.image} date={event.date} time={event.time} location={event.location} slides={event.slides} notebook={event.notebook} key={i}/>)
             })
