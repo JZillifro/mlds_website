@@ -21,7 +21,7 @@ class EventsPage extends Component {
         </p>
 
         <InstagramEmbed
-  url='https://www.instagram.com/tv/CD2Qf7EAOIA/?utm_source=ig_web_copy_link'
+  url='https://www.instagram.com/mlds_ut/'
   maxWidth={450}
   hideCaption={false}
   containerTagName='div'
@@ -42,7 +42,7 @@ class EventsPage extends Component {
           Membership is free and open to all UT students – both undergraduate and graduate. If you are new to machine learning and data science, we’d love to have you join us! Come to meetings via Zoom and check out our resources page for tips on how to get started.
         </p>
 
-        <a href="https://forms.gle/i8SBpAzYCo39xrnJ7">
+        <a href="https://forms.gle/iACZDWwHNY54Qr2P8">
         <button>
           Sign up here to be a member!
         </button>
@@ -62,7 +62,7 @@ class EventsPage extends Component {
      <span>&nbsp;&nbsp;</span>
       <SocialIcon url="https://www.linkedin.com/company/utmlds" />
       <span>&nbsp;&nbsp;</span>
-      <SocialIcon url="https://www.instagram.com/utmlds/" />
+      <SocialIcon url="https://www.instagram.com/mlds_ut/" />
       <span>&nbsp;&nbsp;</span>
 
       
